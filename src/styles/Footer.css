@@ -1,0 +1,22 @@
+.Footer {
+    height: 80px;
+    background-color: royalblue;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 15px;
+}
+
+.MadeBy {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2%;
+
+}

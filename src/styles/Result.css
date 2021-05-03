@@ -1,0 +1,47 @@
+.result {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+    min-height: calc(60vh - 50px);
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+}
+
+
+p.data {
+    color: royalblue;
+    display: inline-block;
+}
+
+.noCity {
+    font-size: 25px;
+}
+
+.result h4 {
+    flex-grow: 1;
+    width: 40%;
+    font-weight: normal;
+    font-size: 25px;
+    animation: show 1s linear forwards;
+}
+
+.result h4:nth-child(even) {
+    transform: translateX(100%);
+}
+
+.result h4:nth-child(odd) {
+    transform: translateX(-100%);
+}
+
+@keyframes show {
+    100% {
+        transform: translateX(0);
+    }
+
+}

@@ -1,0 +1,35 @@
+.App input,
+.App button {
+  margin: 30px;
+  padding: 10px 25px;
+  border: 2px solid gray;
+  background-color: #fff;
+  transition: .3s;
+  font-size: 20px;
+}
+
+.App input {
+  width: 20vw;
+}
+
+.App .Form {
+  margin: 0px 10vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+
+.App label {
+  margin-left: 50px;
+}
+
+.App button {
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  border-color: black;
+}

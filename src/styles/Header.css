@@ -1,0 +1,51 @@
+.Header {
+    height: 80vh;
+    position: relative;
+}
+
+.Header img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    animation: change 20s linear infinite;
+    opacity: 0;
+}
+
+.Header img:nth-of-type(2) {
+    animation-delay: 5s;
+}
+
+.Header img:nth-of-type(3) {
+    animation-delay: 10s;
+}
+
+.Header img:nth-of-type(4) {
+    animation-delay: 15s;
+}
+
+@keyframes change {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
+}
