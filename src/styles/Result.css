@@ -6,6 +6,7 @@
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 20px;
+    padding-bottom: 20px;
     border-top: 2px solid #ddd;
     min-height: calc(60vh - 50px);
     font-family: 'Roboto', sans-serif;
@@ -44,4 +45,50 @@ p.data {
         transform: translateX(0);
     }
 
+}
+
+
+@media (max-width: 1024px) {
+    .result h4 {
+        width: 80%;
+        padding: 5px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 830px) {
+    .result h4 {
+        width: 80%;
+        padding: 5px;
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .result h4 {
+        width: 80%;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .noCity {
+        font-size: 18px;
+    }
+
+    p.data {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .result h4 {
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+        padding: 5px;
+    }
 }

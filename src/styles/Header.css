@@ -49,3 +49,16 @@
 
 
 }
+
+@media (max-width: 1024px) {
+    .Header {
+        height: 60vh;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .Header {
+        height: 60vh;
+    }
+}

@@ -1,3 +1,10 @@
+.App .Form {
+  margin: 0px 10vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .App input,
 .App button {
   margin: 30px;
@@ -12,17 +19,6 @@
   width: 20vw;
 }
 
-.App .Form {
-  margin: 0px 10vh;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-
-}
-
-.App label {
-  margin-left: 50px;
-}
-
 .App button {
   cursor: pointer;
 }
@@ -32,4 +28,51 @@
   color: white;
   cursor: pointer;
   border-color: black;
+}
+
+@media (max-width: 1024px) {
+  .App .Form {
+    justify-content: center;
+  }
+
+  .App input,
+  .App button {
+    padding: 20px 25px;
+    font-size: 35px;
+  }
+
+  .App button {
+    margin-top: 0px;
+  }
+
+  .App input {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 820px) {
+
+  .App input,
+  .App button {
+
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .App .Form {
+    justify-content: center;
+  }
+
+  .App input,
+  .App button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .App input {
+    width: 80vw;
+  }
 }

@@ -18,5 +18,14 @@
     top: 50%;
     transform: translateY(-50%);
     right: 2%;
+}
 
+
+
+@media (max-width: 640px) {
+
+    .Icons {
+        display: none;
+
+    }
 }
