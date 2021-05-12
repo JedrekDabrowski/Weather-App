@@ -1,12 +1,15 @@
 import React from 'react';
 
-const Form = (props) => {
-    return ( 
-        <form onSubmit={props.submit} className="Form">
-            <input type="text" value={props.value} onChange={props.change} placeholder="Wpisz nazwę miasta"/>
-            <button onClick ={props.slideDown}>Wyszukaj</button>
-        </form>
-     );
+export default function Form({ slideDown, submit, value, change }) {
+  return (
+    <form onSubmit={submit} className='Form'>
+      <input
+        type='text'
+        value={value}
+        onChange={change}
+        placeholder='Wpisz nazwę miasta'
+      />
+      <button onClick={slideDown}>Wyszukaj</button>
+    </form>
+  );
 }
- 
-export default Form;
